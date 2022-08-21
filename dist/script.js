@@ -19,7 +19,8 @@ function animateParticles(event) {
 // Texture Loader
 const textureLoader = new THREE.TextureLoader();
 
-const circleTexture = textureLoader.load("./assets/circle.png");
+const circleTexture = textureLoader.load('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAyUlEQVQ4jaWTMWoCURRFz3wsXIELCGIhNpINhGzFypWIDBYpgmQVWUCIW7CwEDsLG0sJpBE9KTKD5utE/HPhd+/cz+PdC5HUjpqrc3VXvIX6onbj+XOwoY7VvdU6qK9q8xr8/g8Y6+OPiTq6Ay71BpCpbWAJNCr3u64j0A/AIAEGCMAwAE8JcKnnTN0CrUSD71Djd+B3j3UNfhOAWQ2DWaY+ACvSzvgIQBHhpCCVBvdG+dOKPuTeLtP0Ao6MOurEU52/PNW5F8//AL2hgAF+TTcaAAAAAElFTkSuQmCC');
+
 
 // // Debug
 // const gui = new dat.GUI();
