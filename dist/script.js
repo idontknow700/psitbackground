@@ -19,7 +19,7 @@ function animateParticles(event) {
 // Texture Loader
 const textureLoader = new THREE.TextureLoader();
 
-const circleTexture = textureLoader.load("/circle.png");
+const circleTexture = textureLoader.load("./assets/circle.png");
 
 // // Debug
 // const gui = new dat.GUI();
